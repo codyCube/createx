@@ -1,0 +1,204 @@
+@media (max-width: 1600px) {
+  html {
+    font-size: 1.02088vw;
+  }
+  .container {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .header__nav {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  .header__nav {
+    max-width: 1024px;
+  }
+  .header__nav-list-item {
+    white-space: nowrap;
+  }
+  .application__items {
+    max-width: 60%;
+  }
+  html {
+    font-size: 1.16672vw;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 970px;
+  }
+  .header__nav {
+    max-width: 970px;
+  }
+  .header__nav-list {
+    gap: 20px;
+  }
+  .application__items {
+    max-width: 50%;
+  }
+}
+@media (max-width: 970px) {
+  html {
+    font-size: 1.67716vw;
+  }
+  .container {
+    max-width: 768px;
+  }
+  .header__nav-main_burger-menu {
+    margin-top: 79px;
+  }
+  .header__nav-main_burger-icon-wrapper {
+    display: block;
+  }
+  .header__nav-main_burger-menu-item a {
+    font-size: 1.75rem;
+  }
+  .header__nav {
+    max-width: 768px;
+  }
+  .header__nav-main-wrapper {
+    width: 100%;
+  }
+  .header__nav-main {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__nav-list,
+  .header__nav-contacts {
+    display: none;
+  }
+  .application__items {
+    max-width: 60%;
+  }
+  .footer__item-bottom-end {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__items_center {
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: 30px auto 30px auto;
+  }
+  .footer__item-info-title {
+    margin-bottom: 5px;
+  }
+  .footer__items_bottom {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__items_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+    width: 100%;
+  }
+  .footer__item-bottom-end {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 1.7vh;
+  }
+  .values__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+    -webkit-box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+            box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    padding-bottom: 30px;
+  }
+  .values__item-content {
+    width: 100%;
+  }
+  .values__item-image-wrapper {
+    width: 100%;
+  }
+  .container {
+    max-width: 480px;
+  }
+  .header__nav {
+    max-width: 480px;
+  }
+  .application__items {
+    max-width: none;
+  }
+  .application__container {
+    padding: 0;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 320px;
+  }
+  .header__nav {
+    max-width: 320px;
+  }
+  .design__content {
+    max-width: 100%;
+  }
+  .footer__item-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .footer__items_top {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    gap: 20px;
+  }
+  .footer__items_bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .footer__item-rights {
+    font-size: 0.85rem;
+    gap: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: none;
+  }
+  .swiper-pagination {
+    max-width: none !important;
+  }
+  .header__nav {
+    max-width: none;
+  }
+  .footer__item-description {
+    font-size: 1rem;
+  }
+}
